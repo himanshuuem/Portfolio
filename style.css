@@ -1,0 +1,57 @@
+h1 {
+  
+    font-family: "Sacramento", cursive;
+}
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+
+.container{
+    text-align: center;    
+    max-width: 100%;
+    padding-top: 1rem;
+    height:50vh;
+    line-height: 2rem;
+
+}
+ul{
+    list-style-type: none;
+}
+/*background of Second container  */
+
+.gradient-background {
+    background: linear-gradient(300deg, #08b8f3, #c9059f, #cf8b82);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ 
+  .skill-row{
+    display:flex;
+    
+    justify-content: space-around;
+    align-content: center;
+  }
+  .profile-img{
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+
+ 
